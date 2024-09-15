@@ -17,9 +17,9 @@ namespace api.Service.UserService
            return Task.CompletedTask;
         }
 
-        public async Task SaveAsync(User user)
+        public void Save(User user)
         {
-            await baseService.CreateAsync(user);
+             baseService.Create(user);
         }
     }
 }

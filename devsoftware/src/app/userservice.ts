@@ -4,24 +4,23 @@ import { Observable } from 'rxjs';
 import { User } from './user';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class UserService {
-  private apiUrl = 'http://localhost:8899/api/User';  // URL da API
+    private apiUrl = 'http://localhost:8899/api/User';  // URL da API
 
 
-  constructor(private http: HttpClient) {}
+    constructor(private http: HttpClient) { }
 
-  private httpOptions = {
-    headers: new HttpHeaders({
-      'Content-Type': 'application/json',
-    })
-  };
+    private httpOptions = {
+        headers: new HttpHeaders({
+            'Content-Type': 'application/json',
+        })
+    };
 
 
-  createUser(user: User): Observable<User> {
-    alert("create")
-    return this.http.post<User>(this.apiUrl, user, this.httpOptions);
-  }
+    createUser(user: User): Observable<User> {
+        return this.http.post<User>(this.apiUrl, JSON.stringify(user), this.httpOptions);
+    }
 
 }

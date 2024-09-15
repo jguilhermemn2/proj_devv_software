@@ -2,7 +2,7 @@
 {
     public interface IUserService
     {
-        Task SaveAsync(Model.User user);
+        void Save(Model.User user);
         Task GetAsync(string email);
     }
 }

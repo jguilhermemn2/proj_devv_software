@@ -13,14 +13,27 @@ namespace api
             builder.Services.AddControllers();
             builder.Services.AddSingleton<IUserService, UserService>();
 
-
-
+            builder.Services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder => {
+                    builder.AllowAnyOrigin();
+                    builder.AllowAnyMethod();
+                    builder.AllowAnyHeader();
+                });
+            });
+            builder.Logging.ClearProviders();
+            builder.Logging.AddConsole();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
 
-            app.UseAuthorization();
+            app.UseHttpsRedirection();
 
+            app.UseStaticFiles();
+            app.UseRouting(); 
+
+            app.UseCors();
+            app.UseAuthorization();
 
             app.MapControllers();
 

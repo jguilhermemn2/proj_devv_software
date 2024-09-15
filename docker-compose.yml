@@ -25,13 +25,26 @@ services:
         - mongodb         
       environment:
         - ASPNETCORE_ENVIRONMENT=Development
-      networks:
-        - mynetwork
+
+  angular-app:
+    build: ./devsoftware
+    container_name: angular_app_container
+    ports:
+      - "4200:80"  # Mapeia a porta 80 do container para a porta 4200 do host
+    volumes:
+      - ./devsoftware/dist/devsoftware/browser:/usr/share/nginx/html
+    depends_on:
+      - nginx
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx_container
+    volumes:
+      - ./dist:/usr/share/nginx/html
+    ports:
+      - "80:80"  # Porta padrão do NGINX
+    restart: always
 
 volumes:
   mongo-data:
     driver: local
-
-networks:
-  mynetwork:
-    driver: bridge

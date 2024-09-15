@@ -13,19 +13,21 @@ import { UserService } from './userservice';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  user: User = new User(1, '', '', '');
+  user: User = new User('','', '', '');
   submitted = false;
 
-  constructor(private userService: UserService) {}
+  constructor(private userService: UserService) { }
 
   onSubmit() {
     this.submitted = true;
     console.log('Usuário cadastrado:', this.user);
   }
 
-  save(){
+  save() {
 
-    this.userService.createUser(this.user);
+    this.userService.createUser(this.user).subscribe(data => {
+      console.log(data);
+    });
   }
 
 }

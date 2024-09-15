@@ -6,23 +6,25 @@
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using api.Model;
+    using api.Controllers;
 
     public class BaseService<T> where T : TEntity
     {
         private readonly IMongoCollection<T> _sCollection;
+        private MongoClient _client;
+        private readonly IMongoDatabase _database;
 
         public BaseService(string collectionName)
         {
-            var client = new MongoClient("mongodb://admin:123@localhost:27017");
-            var database = client.GetDatabase("UserDatabase");
-            database.CreateCollection(collectionName);
-            _sCollection = database.GetCollection<T>(collectionName);
+            _client = new MongoClient("mongodb://admin:123@mongo_container:27017");
+            _database = _client.GetDatabase("UserDatabase");
+            _sCollection = _database.GetCollection<T>(collectionName);
         }
 
 
-        public async Task CreateAsync(T obj)
+        public void Create(T obj)
         {
-            await _sCollection.InsertOneAsync(obj);
+            _sCollection.InsertOne(obj);
         }
 
         public async Task<List<T>> GetsAsync()
