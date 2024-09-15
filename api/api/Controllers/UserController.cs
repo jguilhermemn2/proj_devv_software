@@ -20,8 +20,9 @@ namespace api.Controllers
         {
             try
             {
-                _userService.SaveAsync(user);    
-
+                _userService.SaveAsync(user);
+       
+                System.Diagnostics.Debug.WriteLine("save");
                 return Ok();
             }
             catch (Exception ex)

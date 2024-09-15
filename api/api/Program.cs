@@ -19,8 +19,6 @@ namespace api
 
             // Configure the HTTP request pipeline.
 
-            app.UseHttpsRedirection();
-
             app.UseAuthorization();
 
 

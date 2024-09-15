@@ -12,8 +12,26 @@ services:
     ports:
       - "27017:27017"  
     volumes:
-      - mongo-data:/data/db  
+      - mongo-data:/data/db
+
+  api:
+      build:
+        context: ./api/api    # Caminho para a API
+        dockerfile: Dockerfile
+      container_name: api_container
+      ports:
+        - "8899:8080"       # Mapeia a porta da API para o host
+      depends_on:
+        - mongodb         
+      environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+      networks:
+        - mynetwork
 
 volumes:
   mongo-data:
     driver: local
+
+networks:
+  mynetwork:
+    driver: bridge
