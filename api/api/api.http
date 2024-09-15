@@ -1,0 +1,6 @@
+@api_HostAddress = http://localhost:32768
+
+POST {{api_HostAddress}}/api/user/
+Accept: application/json
+
+###
