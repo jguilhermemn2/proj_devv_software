@@ -23,5 +23,28 @@
     </div>
 
     <button (click)="save()">Save</button>
+    <button (click)="clear()">Clear</button>
 
 </div>
+
+<div class="container">
+    <h2>Lista de Usuários</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Editar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let u of users; let i = index">
+       
+          <td>{{ u.name }}</td> 
+          <td>{{ u.email }}</td>
+          <td><button (click)="edit(i)">Edit</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

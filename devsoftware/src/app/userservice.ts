@@ -7,7 +7,7 @@ import { User } from './user';
     providedIn: 'root'
 })
 export class UserService {
-    private apiUrl = 'http://localhost:8899/api/User';  // URL da API
+    private apiUrl = 'http://localhost:5286/api/User';  // URL da API
 
 
     constructor(private http: HttpClient) { }
@@ -21,6 +21,14 @@ export class UserService {
 
     createUser(user: User): Observable<User> {
         return this.http.post<User>(this.apiUrl, JSON.stringify(user), this.httpOptions);
+    }
+
+    updateUser(user: User): Observable<User> {
+        return this.http.put<User>(this.apiUrl, JSON.stringify(user), this.httpOptions);
+    }
+
+    getAll(): Observable<User[]> {
+        return this.http.get<User[]>(this.apiUrl + "/list", this.httpOptions);
     }
 
 }

@@ -21,5 +21,24 @@ namespace api.Service.UserService
         {
              baseService.Create(user);
         }
+
+        public void Delete(string email) { }
+
+        public void Update(User user) { }
+
+        public User GetById(int id) {
+            return null;
+        }
+
+        public IList<User> GetAll()
+        {
+            return baseService.GetAll();
+
+        }
+
+        public void update(User user)
+        {
+            baseService.Update(user.Id, user);
+        }
     }
 }

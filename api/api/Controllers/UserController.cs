@@ -36,12 +36,28 @@ namespace api.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
-        [HttpGet]
-        public IActionResult Get(string email) {
+        [HttpGet()]
+        [Route("list")]
+        public IActionResult Get()
+        {
             try
             {
-                //_userService.Get(email);
+                var rsp = _userService.GetAll();
+
+                return Ok(rsp);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut()]
+        public IActionResult Update(User user)
+        {
+            try
+            {
+              _userService.update(user);
 
                 return Ok();
             }
@@ -50,5 +66,20 @@ namespace api.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+
+        //[HttpGet]
+        //public IActionResult Get(string email) {
+        //    try
+        //    {
+        //        //_userService.Get(email);
+
+        //        return Ok();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return BadRequest(ex.Message);
+        //    }
+        //}
     }
 }

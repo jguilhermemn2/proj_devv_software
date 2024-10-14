@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|c:\\users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|c:\\users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\service\\userservice\\_\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:service\\userservice\\_\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|c:\\users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|c:\\users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\service\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:service\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\service\\userservice\\_\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:service\\userservice\\_\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|c:\\users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jguil\\AppData\\Local\\Temp\\.vsdbgsrc\\0637c6ad9c08d73b8d492b08d044dca14edcce15edf3422ec1e0a7a9eae3bd9f\\ThrowHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -42,14 +46,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9ED9A811-0551-48B9-A9BE-B605C652BBAA}|api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,24 +55,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\UserService\\IUserService.cs",
-              "RelativeDocumentMoniker": "Service\\UserService\\IUserService.cs",
-              "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\UserService\\IUserService.cs",
-              "RelativeToolTip": "Service\\UserService\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "DocumentIndex": 3,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\BaseService.cs",
+              "RelativeDocumentMoniker": "Service\\BaseService.cs",
+              "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\BaseService.cs",
+              "RelativeToolTip": "Service\\BaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T03:16:26.95Z",
+              "WhenOpened": "2024-10-14T13:29:03.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\UserService\\IUserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService\\IUserService.cs",
+              "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\UserService\\IUserService.cs",
+              "RelativeToolTip": "Service\\UserService\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:26:26.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -88,19 +97,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Model\\User.cs",
               "RelativeDocumentMoniker": "Model\\User.cs",
               "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Model\\User.cs",
               "RelativeToolTip": "Model\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T02:26:18.28Z"
+              "WhenOpened": "2024-09-15T02:26:18.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ValueTask.cs",
               "DocumentMoniker": "C:\\Users\\jguil\\AppData\\Local\\Temp\\.vsdbgsrc\\5cbea72537ce83ad8d2e94cdf08acbe1b5b9680728551f045509cd93ffd44716\\ValueTask.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\5cbea72537ce83ad8d2e94cdf08acbe1b5b9680728551f045509cd93ffd44716\\ValueTask.cs",
@@ -112,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "JsonTypeInfo.cs",
               "DocumentMoniker": "C:\\Users\\jguil\\AppData\\Local\\Temp\\.vsdbgsrc\\7528db058631b8506c917a777478fdc7db82b4afa228e17320facc781b31c7aa\\JsonTypeInfo.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\7528db058631b8506c917a777478fdc7db82b4afa228e17320facc781b31c7aa\\JsonTypeInfo.cs",
@@ -124,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ThrowHelper.cs",
               "DocumentMoniker": "C:\\Users\\jguil\\AppData\\Local\\Temp\\.vsdbgsrc\\0637c6ad9c08d73b8d492b08d044dca14edcce15edf3422ec1e0a7a9eae3bd9f\\ThrowHelper.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0637c6ad9c08d73b8d492b08d044dca14edcce15edf3422ec1e0a7a9eae3bd9f\\ThrowHelper.cs",
@@ -136,20 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\UserService\\_\\UserService.cs",
-              "RelativeDocumentMoniker": "Service\\UserService\\_\\UserService.cs",
-              "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\UserService\\_\\UserService.cs",
-              "RelativeToolTip": "Service\\UserService\\_\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T02:20:38.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "api",
               "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\api.csproj",
               "RelativeDocumentMoniker": "api.csproj",
@@ -160,65 +157,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\BaseService.cs",
-              "RelativeDocumentMoniker": "Service\\BaseService.cs",
-              "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\BaseService.cs",
-              "RelativeToolTip": "Service\\BaseService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBIAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T01:37:38.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAowBsAAAAhAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAD4vzsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T01:33:20.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-15T01:25:51.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBgAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T01:23:57.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-15T01:09:59.625Z"
+              "WhenOpened": "2024-09-15T01:09:59.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\UserService\\_\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService\\_\\UserService.cs",
+              "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Service\\UserService\\_\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService\\_\\UserService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAuwBoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:52:45.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\jguil\\source\\repos\\proj_devv_software\\api\\api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-15T01:25:51.604Z",
+              "EditorCaption": ""
             }
           ]
         }

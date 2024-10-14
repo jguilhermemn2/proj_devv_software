@@ -1,3 +1,5 @@
+using api.Model;
+using api.Service;
 using api.Service.UserService;
 
 namespace api
@@ -25,7 +27,6 @@ namespace api
             builder.Logging.AddConsole();
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
 
             app.UseHttpsRedirection();
 

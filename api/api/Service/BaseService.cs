@@ -17,6 +17,7 @@
         public BaseService(string collectionName)
         {
             _client = new MongoClient("mongodb://admin:123@mongo_container:27017");
+           // _client = new MongoClient("mongodb://admin:123@localhost:27017");
             _database = _client.GetDatabase("UserDatabase");
             _sCollection = _database.GetCollection<T>(collectionName);
         }
@@ -40,10 +41,10 @@
         }
 
 
-        public async Task UpdateAsync(Guid id, T obj)
+        public void Update(Guid id, T obj)
         {
             var filter = Builders<T>.Filter.Eq(u => u.Id, id);
-            await _sCollection.ReplaceOneAsync(filter, obj);
+            _sCollection.ReplaceOne(filter, obj);
         }
 
 
@@ -51,6 +52,11 @@
         {
             var filter = Builders<T>.Filter.Eq(u => u.Id, id);
             await _sCollection.DeleteOneAsync(filter);
+        }
+
+        internal List<T> GetAll()
+        {
+            return _sCollection.Find<T>(_ => true).ToList();
         }
     }
 }
