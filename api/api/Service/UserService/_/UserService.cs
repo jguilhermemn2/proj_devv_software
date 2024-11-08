@@ -22,12 +22,13 @@ namespace api.Service.UserService
              baseService.Create(user);
         }
 
-        public void Delete(string email) { }
+        public void Delete(Guid Id) {
+             baseService.Delete(Id);
+        }
 
-        public void Update(User user) { }
 
-        public User GetById(int id) {
-            return null;
+        public User GetById(Guid id) {
+            return baseService.GetById(id);
         }
 
         public IList<User> GetAll()

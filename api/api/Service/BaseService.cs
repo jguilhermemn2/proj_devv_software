@@ -6,7 +6,6 @@
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using api.Model;
-    using api.Controllers;
 
     public class BaseService<T> where T : TEntity
     {
@@ -16,8 +15,8 @@
 
         public BaseService(string collectionName)
         {
-            _client = new MongoClient("mongodb://admin:123@mongo_container:27017");
-           // _client = new MongoClient("mongodb://admin:123@localhost:27017");
+            // _client = new MongoClient("mongodb://admin:123@mongo_container:27017");
+            _client = new MongoClient("mongodb://admin:123@localhost:27017");
             _database = _client.GetDatabase("UserDatabase");
             _sCollection = _database.GetCollection<T>(collectionName);
         }
@@ -34,10 +33,10 @@
         }
 
 
-        public async Task<T> GetByIdAsync(Guid id)
+        public T GetById(Guid id)
         {
             var filter = Builders<T>.Filter.Eq(u => u.Id, id);
-            return await _sCollection.Find(filter).FirstOrDefaultAsync();
+            return _sCollection.Find(filter).FirstOrDefault();
         }
 
 
@@ -48,10 +47,10 @@
         }
 
 
-        public async Task DeleteAsync(Guid id)
+        public void Delete(Guid id)
         {
             var filter = Builders<T>.Filter.Eq(u => u.Id, id);
-            await _sCollection.DeleteOneAsync(filter);
+            _sCollection.DeleteOne(filter);
         }
 
         internal List<T> GetAll()

@@ -23,6 +23,10 @@ export class AppComponent implements OnInit {
 
   constructor(private userService: UserService) { }
   ngOnInit(): void {
+    this.loadData();
+  }
+
+  loadData(){
     this.userService.getAll().subscribe(data => {
       console.log(data);
       this.users = data;
@@ -58,6 +62,14 @@ export class AppComponent implements OnInit {
   edit(index: number) {
     this.IsEdit = true;
     this.user = this.users[index];
+  }
+
+  remove(id: any){
+
+    this.userService.removeUser(id).subscribe(data => {
+      console.log(data);
+      this.loadData();
+    });
   }
 
   clear() {

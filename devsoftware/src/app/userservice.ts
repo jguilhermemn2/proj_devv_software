@@ -7,7 +7,7 @@ import { User } from './user';
     providedIn: 'root'
 })
 export class UserService {
-    private apiUrl = 'http://localhost:8899/api/User';  // URL da API
+    private apiUrl = 'http://localhost:5286/api/User';  // URL da API
 
 
     constructor(private http: HttpClient) { }
@@ -29,6 +29,10 @@ export class UserService {
 
     getAll(): Observable<User[]> {
         return this.http.get<User[]>(this.apiUrl + "/list", this.httpOptions);
+    }
+
+    removeUser(id: any): Observable<User> {
+        return this.http.delete<User>(this.apiUrl + "/" + id, this.httpOptions);
     }
 
 }
