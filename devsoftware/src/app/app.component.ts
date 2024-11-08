@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { UserService } from './userservice';
 import { NgFor } from '@angular/common';
+import { UserReq } from './userReq';
 
 @Component({
   selector: 'app-root',
@@ -26,7 +27,7 @@ export class AppComponent implements OnInit {
     this.loadData();
   }
 
-  loadData(){
+  loadData() {
     this.userService.getAll().subscribe(data => {
       console.log(data);
       this.users = data;
@@ -45,17 +46,20 @@ export class AppComponent implements OnInit {
       this.userService.updateUser(this.user).subscribe(data => {
         console.log(data);
         this.IsEdit = false;
-        this.clear()
+        this.clear();
+        this.loadData();
       });
 
     } else {
 
-      this.userService.createUser(this.user).subscribe(data => {
+      var userReq = new UserReq(this.user.name, this.user.email, this.user.password);
+
+      this.userService.createUser(userReq).subscribe(data => {
         console.log(data);
         this.IsEdit = false;
-        this.clear()
+        this.clear();
+        this.loadData();
       });
-
     }
   }
 
@@ -64,7 +68,7 @@ export class AppComponent implements OnInit {
     this.user = this.users[index];
   }
 
-  remove(id: any){
+  remove(id: any) {
 
     this.userService.removeUser(id).subscribe(data => {
       console.log(data);

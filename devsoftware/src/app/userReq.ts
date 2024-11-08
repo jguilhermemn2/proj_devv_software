@@ -1,6 +1,5 @@
-export class User {
+export class UserReq {
     constructor(
-      public id: any,
       public name: string,
       public email: string,
       public password: string

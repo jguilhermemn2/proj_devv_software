@@ -15,8 +15,8 @@
 
         public BaseService(string collectionName)
         {
-            // _client = new MongoClient("mongodb://admin:123@mongo_container:27017");
-            _client = new MongoClient("mongodb://admin:123@localhost:27017");
+             _client = new MongoClient("mongodb://admin:123@mongo_container:27017");
+           // _client = new MongoClient("mongodb://admin:123@localhost:27017");
             _database = _client.GetDatabase("UserDatabase");
             _sCollection = _database.GetCollection<T>(collectionName);
         }
